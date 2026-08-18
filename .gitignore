@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Production builds
+/dist
+/dist/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editor / OS local files
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local cert / secret material
+certs/
+*.pem
+*.crt
+*.key
+
+# Temporary / local project files
+tmp_new_nutrition.jsx
+*.local
